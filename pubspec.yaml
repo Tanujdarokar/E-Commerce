@@ -1,0 +1,36 @@
+name: k_vinaya_ecommerce
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^5.1.1
+  intl: ^0.18.1 # Added missing intl package
+  flutter_riverpod: ^2.4.9
+  riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#2196F3"
+  image: assets/logo.png
+  android_12:
+    image: assets/logo.png
+    color: "#2196F3"
+  fullscreen: true
